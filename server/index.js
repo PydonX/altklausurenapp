@@ -5,6 +5,8 @@ import { fileURLToPath } from 'node:url';
 import express from 'express';
 import session from 'express-session';
 import authRouter from './routes/auth.js';
+import statsRouter from './routes/stats.js';
+import coursesRouter from './routes/courses.js';
 
 // .env darf fehlen: Die App muss auch ohne sie starten.
 try {
@@ -34,6 +36,9 @@ app.get('/api/health', (req, res) => {
   res.json({ ok: true });
 });
 app.use('/api/auth', authRouter);
+// Diese Router enthalten ihre vollen Pfade (z. B. /courses/:id), deshalb alle unter /api
+app.use('/api', statsRouter);
+app.use('/api', coursesRouter);
 
 // Unbekannte /api-Adressen: JSON statt HTML
 app.use('/api', (req, res) => {
