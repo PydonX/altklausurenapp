@@ -1,1 +1,1357 @@
-{}
+{
+  "users": [],
+  "courses": [
+    {
+      "id": 1,
+      "name": "Einführung in die Wirtschaftsinformatik",
+      "studiengang": "WI",
+      "semester": 1
+    },
+    {
+      "id": 2,
+      "name": "Grundlagen der IT",
+      "studiengang": "WI",
+      "semester": 1
+    },
+    {
+      "id": 3,
+      "name": "Grundlagen der Programmierung",
+      "studiengang": "WI",
+      "semester": 1
+    },
+    {
+      "id": 4,
+      "name": "Grundlagen der Betriebswirtschaftslehre",
+      "studiengang": "WI",
+      "semester": 1
+    },
+    {
+      "id": 5,
+      "name": "Vertrags-/Schuldrecht",
+      "studiengang": "WI",
+      "semester": 1
+    },
+    {
+      "id": 6,
+      "name": "Mathematik I",
+      "studiengang": "WI",
+      "semester": 1
+    },
+    {
+      "id": 7,
+      "name": "Präsentation/Kommunikationskompetenz",
+      "studiengang": "WI",
+      "semester": 1
+    },
+    {
+      "id": 8,
+      "name": "Systemanalyse und -entwurf",
+      "studiengang": "WI",
+      "semester": 2
+    },
+    {
+      "id": 9,
+      "name": "Kommunikations- und Betriebssysteme",
+      "studiengang": "WI",
+      "semester": 2
+    },
+    {
+      "id": 10,
+      "name": "Fortgeschrittene Programmierkonzepte, Algorithmen und Datenstrukturen",
+      "studiengang": "WI",
+      "semester": 2
+    },
+    {
+      "id": 11,
+      "name": "Technik der Finanzbuchführung",
+      "studiengang": "WI",
+      "semester": 2
+    },
+    {
+      "id": 12,
+      "name": "Kosten- und Leistungsrechnung",
+      "studiengang": "WI",
+      "semester": 2
+    },
+    {
+      "id": 13,
+      "name": "Handels-/Gesellschaftsrecht",
+      "studiengang": "WI",
+      "semester": 2
+    },
+    {
+      "id": 14,
+      "name": "Mathematik II",
+      "studiengang": "WI",
+      "semester": 2
+    },
+    {
+      "id": 15,
+      "name": "Grundlagen des wissenschaftlichen Arbeitens",
+      "studiengang": "WI",
+      "semester": 2
+    },
+    {
+      "id": 16,
+      "name": "Geschäftsprozessmodellierung und -management",
+      "studiengang": "WI",
+      "semester": 3
+    },
+    {
+      "id": 17,
+      "name": "Datenbanken",
+      "studiengang": "WI",
+      "semester": 3
+    },
+    {
+      "id": 18,
+      "name": "Mathematische Grundlagen der KI",
+      "studiengang": "WI",
+      "semester": 3
+    },
+    {
+      "id": 19,
+      "name": "Optimierung",
+      "studiengang": "WI",
+      "semester": 3
+    },
+    {
+      "id": 20,
+      "name": "Nachhaltigkeit und Informatik",
+      "studiengang": "WI",
+      "semester": 3
+    },
+    {
+      "id": 21,
+      "name": "Grundlagen Data Science",
+      "studiengang": "WI",
+      "semester": 3
+    },
+    {
+      "id": 22,
+      "name": "Konzepte der Software-Entwicklung",
+      "studiengang": "WI",
+      "semester": 3
+    },
+    {
+      "id": 23,
+      "name": "Grundlagen Sales",
+      "studiengang": "WI",
+      "semester": 3
+    },
+    {
+      "id": 24,
+      "name": "Grundlagen Consulting",
+      "studiengang": "WI",
+      "semester": 3
+    },
+    {
+      "id": 25,
+      "name": "Projektmanagement",
+      "studiengang": "WI",
+      "semester": 4
+    },
+    {
+      "id": 26,
+      "name": "Entwicklung verteilter Systeme",
+      "studiengang": "WI",
+      "semester": 4
+    },
+    {
+      "id": 27,
+      "name": "Investition und Finanzierung",
+      "studiengang": "WI",
+      "semester": 4
+    },
+    {
+      "id": 28,
+      "name": "Bilanzierung",
+      "studiengang": "WI",
+      "semester": 4
+    },
+    {
+      "id": 29,
+      "name": "IT-Sicherheit",
+      "studiengang": "WI",
+      "semester": 4
+    },
+    {
+      "id": 30,
+      "name": "Business Intelligence and Analytics",
+      "studiengang": "WI",
+      "semester": 4
+    },
+    {
+      "id": 31,
+      "name": "Vertiefende Aspekte des Software-Engineerings",
+      "studiengang": "WI",
+      "semester": 4
+    },
+    {
+      "id": 32,
+      "name": "Management Accounting",
+      "studiengang": "WI",
+      "semester": 4
+    },
+    {
+      "id": 33,
+      "name": "Integrierte Fallstudie Sales & Consulting",
+      "studiengang": "WI",
+      "semester": 4
+    },
+    {
+      "id": 34,
+      "name": "Integrationsseminar in der Wirtschaftsinformatik",
+      "studiengang": "WI",
+      "semester": 5
+    },
+    {
+      "id": 35,
+      "name": "Neue Konzepte",
+      "studiengang": "WI",
+      "semester": 5
+    },
+    {
+      "id": 36,
+      "name": "Volkswirtschaftslehre",
+      "studiengang": "WI",
+      "semester": 5
+    },
+    {
+      "id": 37,
+      "name": "Ethik in der Informatik",
+      "studiengang": "WI",
+      "semester": 5
+    },
+    {
+      "id": 38,
+      "name": "Digitale Transformation in der Wirtschaft",
+      "studiengang": "WI",
+      "semester": 5
+    },
+    {
+      "id": 39,
+      "name": "Aktuelle Aspekte im Software Engineering",
+      "studiengang": "WI",
+      "semester": 5
+    },
+    {
+      "id": 40,
+      "name": "Sales Management",
+      "studiengang": "WI",
+      "semester": 5
+    },
+    {
+      "id": 41,
+      "name": "Change Management",
+      "studiengang": "WI",
+      "semester": 5
+    },
+    {
+      "id": 42,
+      "name": "Projektrealisierung",
+      "studiengang": "WI",
+      "semester": 6
+    },
+    {
+      "id": 43,
+      "name": "ERP-Systeme",
+      "studiengang": "WI",
+      "semester": 6
+    },
+    {
+      "id": 44,
+      "name": "Management",
+      "studiengang": "WI",
+      "semester": 6
+    },
+    {
+      "id": 45,
+      "name": "Wirtschaftspsychologie",
+      "studiengang": "WI",
+      "semester": 6
+    },
+    {
+      "id": 46,
+      "name": "Forschungsseminar Wirtschaftsinformatik",
+      "studiengang": "WI",
+      "semester": 6
+    }
+  ],
+  "topics": [
+    {
+      "id": 1,
+      "course_id": 1,
+      "name": "Informationssysteme im Unternehmen"
+    },
+    {
+      "id": 2,
+      "course_id": 1,
+      "name": "Digitalisierung und Geschäftsmodelle"
+    },
+    {
+      "id": 3,
+      "course_id": 1,
+      "name": "Daten, Information und Wissen"
+    },
+    {
+      "id": 4,
+      "course_id": 1,
+      "name": "Anwendungssysteme"
+    },
+    {
+      "id": 5,
+      "course_id": 2,
+      "name": "Zahlensysteme und Codierung"
+    },
+    {
+      "id": 6,
+      "course_id": 2,
+      "name": "Boolesche Algebra"
+    },
+    {
+      "id": 7,
+      "course_id": 2,
+      "name": "Rechnerarchitektur"
+    },
+    {
+      "id": 8,
+      "course_id": 2,
+      "name": "Hardware-Komponenten"
+    },
+    {
+      "id": 9,
+      "course_id": 2,
+      "name": "Software-Grundbegriffe"
+    },
+    {
+      "id": 10,
+      "course_id": 3,
+      "name": "Variablen und Datentypen"
+    },
+    {
+      "id": 11,
+      "course_id": 3,
+      "name": "Kontrollstrukturen"
+    },
+    {
+      "id": 12,
+      "course_id": 3,
+      "name": "Funktionen und Methoden"
+    },
+    {
+      "id": 13,
+      "course_id": 3,
+      "name": "Arrays und Listen"
+    },
+    {
+      "id": 14,
+      "course_id": 3,
+      "name": "Objektorientierung (Grundlagen)"
+    },
+    {
+      "id": 15,
+      "course_id": 4,
+      "name": "Unternehmensziele und Rechtsformen"
+    },
+    {
+      "id": 16,
+      "course_id": 4,
+      "name": "Beschaffung, Produktion und Absatz"
+    },
+    {
+      "id": 17,
+      "course_id": 4,
+      "name": "Marketing"
+    },
+    {
+      "id": 18,
+      "course_id": 4,
+      "name": "Organisation und Personal"
+    },
+    {
+      "id": 19,
+      "course_id": 5,
+      "name": "Willenserklärung und Vertragsschluss"
+    },
+    {
+      "id": 20,
+      "course_id": 5,
+      "name": "Leistungsstörungen"
+    },
+    {
+      "id": 21,
+      "course_id": 5,
+      "name": "Kaufvertrag und Gewährleistung"
+    },
+    {
+      "id": 22,
+      "course_id": 5,
+      "name": "Dienst- und Werkvertrag"
+    },
+    {
+      "id": 23,
+      "course_id": 5,
+      "name": "Gesetzliche Schuldverhältnisse"
+    },
+    {
+      "id": 24,
+      "course_id": 6,
+      "name": "Grundlagen und Funktionen"
+    },
+    {
+      "id": 25,
+      "course_id": 6,
+      "name": "Folgen und Grenzwerte"
+    },
+    {
+      "id": 26,
+      "course_id": 6,
+      "name": "Differentialrechnung"
+    },
+    {
+      "id": 27,
+      "course_id": 6,
+      "name": "Integralrechnung"
+    },
+    {
+      "id": 28,
+      "course_id": 6,
+      "name": "Lineare Gleichungssysteme"
+    },
+    {
+      "id": 29,
+      "course_id": 7,
+      "name": "Präsentationstechniken"
+    },
+    {
+      "id": 30,
+      "course_id": 7,
+      "name": "Visualisierung und Folien"
+    },
+    {
+      "id": 31,
+      "course_id": 7,
+      "name": "Rhetorik und Körpersprache"
+    },
+    {
+      "id": 32,
+      "course_id": 7,
+      "name": "Feedback und Teamkommunikation"
+    },
+    {
+      "id": 33,
+      "course_id": 8,
+      "name": "Anforderungserhebung"
+    },
+    {
+      "id": 34,
+      "course_id": 8,
+      "name": "UML-Modellierung"
+    },
+    {
+      "id": 35,
+      "course_id": 8,
+      "name": "Vorgehensmodelle"
+    },
+    {
+      "id": 36,
+      "course_id": 8,
+      "name": "Entwurf und Architektur"
+    },
+    {
+      "id": 37,
+      "course_id": 9,
+      "name": "Prozesse und Threads"
+    },
+    {
+      "id": 38,
+      "course_id": 9,
+      "name": "Speicherverwaltung"
+    },
+    {
+      "id": 39,
+      "course_id": 9,
+      "name": "Dateisysteme"
+    },
+    {
+      "id": 40,
+      "course_id": 9,
+      "name": "ISO/OSI- und TCP/IP-Modell"
+    },
+    {
+      "id": 41,
+      "course_id": 9,
+      "name": "Netzwerkprotokolle"
+    },
+    {
+      "id": 42,
+      "course_id": 10,
+      "name": "Objektorientierte Programmierung"
+    },
+    {
+      "id": 43,
+      "course_id": 10,
+      "name": "Rekursion"
+    },
+    {
+      "id": 44,
+      "course_id": 10,
+      "name": "Sortieren und Suchen"
+    },
+    {
+      "id": 45,
+      "course_id": 10,
+      "name": "Listen, Stacks und Queues"
+    },
+    {
+      "id": 46,
+      "course_id": 10,
+      "name": "Bäume, Graphen und Komplexität"
+    },
+    {
+      "id": 47,
+      "course_id": 11,
+      "name": "Bilanz und GuV"
+    },
+    {
+      "id": 48,
+      "course_id": 11,
+      "name": "Buchungssätze"
+    },
+    {
+      "id": 49,
+      "course_id": 11,
+      "name": "Umsatzsteuer"
+    },
+    {
+      "id": 50,
+      "course_id": 11,
+      "name": "Abschreibungen"
+    },
+    {
+      "id": 51,
+      "course_id": 11,
+      "name": "Jahresabschluss"
+    },
+    {
+      "id": 52,
+      "course_id": 12,
+      "name": "Kostenarten"
+    },
+    {
+      "id": 53,
+      "course_id": 12,
+      "name": "Kostenstellen"
+    },
+    {
+      "id": 54,
+      "course_id": 12,
+      "name": "Kostenträgerrechnung"
+    },
+    {
+      "id": 55,
+      "course_id": 12,
+      "name": "Deckungsbeitragsrechnung"
+    },
+    {
+      "id": 56,
+      "course_id": 12,
+      "name": "Break-even-Analyse"
+    },
+    {
+      "id": 57,
+      "course_id": 13,
+      "name": "Kaufmannsbegriff und Handelsregister"
+    },
+    {
+      "id": 58,
+      "course_id": 13,
+      "name": "Handelsgeschäfte"
+    },
+    {
+      "id": 59,
+      "course_id": 13,
+      "name": "Personengesellschaften"
+    },
+    {
+      "id": 60,
+      "course_id": 13,
+      "name": "Kapitalgesellschaften (GmbH, AG)"
+    },
+    {
+      "id": 61,
+      "course_id": 14,
+      "name": "Matrizen und Lineare Algebra"
+    },
+    {
+      "id": 62,
+      "course_id": 14,
+      "name": "Vektorrechnung"
+    },
+    {
+      "id": 63,
+      "course_id": 14,
+      "name": "Wahrscheinlichkeitsrechnung"
+    },
+    {
+      "id": 64,
+      "course_id": 14,
+      "name": "Statistik"
+    },
+    {
+      "id": 65,
+      "course_id": 14,
+      "name": "Funktionen mehrerer Variablen"
+    },
+    {
+      "id": 66,
+      "course_id": 15,
+      "name": "Recherche und Quellen"
+    },
+    {
+      "id": 67,
+      "course_id": 15,
+      "name": "Zitieren"
+    },
+    {
+      "id": 68,
+      "course_id": 15,
+      "name": "Aufbau einer Arbeit"
+    },
+    {
+      "id": 69,
+      "course_id": 15,
+      "name": "Wissenschaftliches Schreiben"
+    },
+    {
+      "id": 70,
+      "course_id": 16,
+      "name": "BPMN"
+    },
+    {
+      "id": 71,
+      "course_id": 16,
+      "name": "Ereignisgesteuerte Prozessketten (EPK)"
+    },
+    {
+      "id": 72,
+      "course_id": 16,
+      "name": "Prozessanalyse"
+    },
+    {
+      "id": 73,
+      "course_id": 16,
+      "name": "Prozessoptimierung"
+    },
+    {
+      "id": 74,
+      "course_id": 16,
+      "name": "Workflow und Automatisierung"
+    },
+    {
+      "id": 75,
+      "course_id": 17,
+      "name": "ER-Modellierung"
+    },
+    {
+      "id": 76,
+      "course_id": 17,
+      "name": "Relationales Modell"
+    },
+    {
+      "id": 77,
+      "course_id": 17,
+      "name": "SQL"
+    },
+    {
+      "id": 78,
+      "course_id": 17,
+      "name": "Normalformen"
+    },
+    {
+      "id": 79,
+      "course_id": 17,
+      "name": "Transaktionen"
+    },
+    {
+      "id": 80,
+      "course_id": 18,
+      "name": "Lineare Algebra für KI"
+    },
+    {
+      "id": 81,
+      "course_id": 18,
+      "name": "Wahrscheinlichkeit und Statistik"
+    },
+    {
+      "id": 82,
+      "course_id": 18,
+      "name": "Gradientenverfahren"
+    },
+    {
+      "id": 83,
+      "course_id": 18,
+      "name": "Maschinelles Lernen"
+    },
+    {
+      "id": 84,
+      "course_id": 18,
+      "name": "Neuronale Netze"
+    },
+    {
+      "id": 85,
+      "course_id": 19,
+      "name": "Lineare Optimierung"
+    },
+    {
+      "id": 86,
+      "course_id": 19,
+      "name": "Simplex-Verfahren"
+    },
+    {
+      "id": 87,
+      "course_id": 19,
+      "name": "Netzplantechnik und Graphen"
+    },
+    {
+      "id": 88,
+      "course_id": 19,
+      "name": "Ganzzahlige Optimierung"
+    },
+    {
+      "id": 89,
+      "course_id": 19,
+      "name": "Transportprobleme"
+    },
+    {
+      "id": 90,
+      "course_id": 20,
+      "name": "Green IT"
+    },
+    {
+      "id": 91,
+      "course_id": 20,
+      "name": "Nachhaltigkeitsziele (SDGs)"
+    },
+    {
+      "id": 92,
+      "course_id": 20,
+      "name": "Energieverbrauch von IT"
+    },
+    {
+      "id": 93,
+      "course_id": 20,
+      "name": "Rechtlicher Rahmen und ESG"
+    },
+    {
+      "id": 94,
+      "course_id": 21,
+      "name": "Datenaufbereitung"
+    },
+    {
+      "id": 95,
+      "course_id": 21,
+      "name": "Statistik-Grundlagen"
+    },
+    {
+      "id": 96,
+      "course_id": 21,
+      "name": "Visualisierung"
+    },
+    {
+      "id": 97,
+      "course_id": 21,
+      "name": "Maschinelles Lernen"
+    },
+    {
+      "id": 98,
+      "course_id": 21,
+      "name": "Python für Datenanalyse"
+    },
+    {
+      "id": 99,
+      "course_id": 22,
+      "name": "Softwarearchitektur"
+    },
+    {
+      "id": 100,
+      "course_id": 22,
+      "name": "Entwurfsmuster"
+    },
+    {
+      "id": 101,
+      "course_id": 22,
+      "name": "Testen"
+    },
+    {
+      "id": 102,
+      "course_id": 22,
+      "name": "Versionsverwaltung mit Git"
+    },
+    {
+      "id": 103,
+      "course_id": 22,
+      "name": "Agile Methoden"
+    },
+    {
+      "id": 104,
+      "course_id": 23,
+      "name": "Vertriebsprozess"
+    },
+    {
+      "id": 105,
+      "course_id": 23,
+      "name": "Kundenanalyse"
+    },
+    {
+      "id": 106,
+      "course_id": 23,
+      "name": "Verkaufsgespräch"
+    },
+    {
+      "id": 107,
+      "course_id": 23,
+      "name": "Angebot und Verhandlung"
+    },
+    {
+      "id": 108,
+      "course_id": 23,
+      "name": "CRM"
+    },
+    {
+      "id": 109,
+      "course_id": 24,
+      "name": "Beratungsprozess"
+    },
+    {
+      "id": 110,
+      "course_id": 24,
+      "name": "Problemstrukturierung"
+    },
+    {
+      "id": 111,
+      "course_id": 24,
+      "name": "Analysemethoden"
+    },
+    {
+      "id": 112,
+      "course_id": 24,
+      "name": "Kommunikation mit Kunden"
+    },
+    {
+      "id": 113,
+      "course_id": 25,
+      "name": "Projektphasen"
+    },
+    {
+      "id": 114,
+      "course_id": 25,
+      "name": "Projektplanung (Struktur, Zeit, Kosten)"
+    },
+    {
+      "id": 115,
+      "course_id": 25,
+      "name": "Risikomanagement"
+    },
+    {
+      "id": 116,
+      "course_id": 25,
+      "name": "Agiles Projektmanagement (Scrum)"
+    },
+    {
+      "id": 117,
+      "course_id": 25,
+      "name": "Projektorganisation"
+    },
+    {
+      "id": 118,
+      "course_id": 26,
+      "name": "Client-Server-Architektur"
+    },
+    {
+      "id": 119,
+      "course_id": 26,
+      "name": "REST-APIs"
+    },
+    {
+      "id": 120,
+      "course_id": 26,
+      "name": "Microservices"
+    },
+    {
+      "id": 121,
+      "course_id": 26,
+      "name": "Nebenläufigkeit"
+    },
+    {
+      "id": 122,
+      "course_id": 26,
+      "name": "Messaging und Middleware"
+    },
+    {
+      "id": 123,
+      "course_id": 27,
+      "name": "Statische Investitionsrechnung"
+    },
+    {
+      "id": 124,
+      "course_id": 27,
+      "name": "Dynamische Investitionsrechnung"
+    },
+    {
+      "id": 125,
+      "course_id": 27,
+      "name": "Finanzierungsarten"
+    },
+    {
+      "id": 126,
+      "course_id": 27,
+      "name": "Kapitalkosten"
+    },
+    {
+      "id": 127,
+      "course_id": 27,
+      "name": "Leasing"
+    },
+    {
+      "id": 128,
+      "course_id": 28,
+      "name": "Bilanzierungsgrundsätze (HGB)"
+    },
+    {
+      "id": 129,
+      "course_id": 28,
+      "name": "Bewertung des Anlagevermögens"
+    },
+    {
+      "id": 130,
+      "course_id": 28,
+      "name": "Vorräte und Forderungen"
+    },
+    {
+      "id": 131,
+      "course_id": 28,
+      "name": "Rückstellungen und Verbindlichkeiten"
+    },
+    {
+      "id": 132,
+      "course_id": 28,
+      "name": "Eigenkapital"
+    },
+    {
+      "id": 133,
+      "course_id": 29,
+      "name": "Schutzziele"
+    },
+    {
+      "id": 134,
+      "course_id": 29,
+      "name": "Kryptografie"
+    },
+    {
+      "id": 135,
+      "course_id": 29,
+      "name": "Authentifizierung"
+    },
+    {
+      "id": 136,
+      "course_id": 29,
+      "name": "Netzwerksicherheit"
+    },
+    {
+      "id": 137,
+      "course_id": 29,
+      "name": "Angriffe und Schutzmaßnahmen"
+    },
+    {
+      "id": 138,
+      "course_id": 30,
+      "name": "Data Warehouse"
+    },
+    {
+      "id": 139,
+      "course_id": 30,
+      "name": "ETL"
+    },
+    {
+      "id": 140,
+      "course_id": 30,
+      "name": "OLAP"
+    },
+    {
+      "id": 141,
+      "course_id": 30,
+      "name": "Reporting und Dashboards"
+    },
+    {
+      "id": 142,
+      "course_id": 30,
+      "name": "Predictive Analytics"
+    },
+    {
+      "id": 143,
+      "course_id": 31,
+      "name": "Anforderungsmanagement"
+    },
+    {
+      "id": 144,
+      "course_id": 31,
+      "name": "Softwarequalität und Testen"
+    },
+    {
+      "id": 145,
+      "course_id": 31,
+      "name": "Architekturmuster"
+    },
+    {
+      "id": 146,
+      "course_id": 31,
+      "name": "CI/CD"
+    },
+    {
+      "id": 147,
+      "course_id": 31,
+      "name": "Wartung und Refactoring"
+    },
+    {
+      "id": 148,
+      "course_id": 32,
+      "name": "Controlling-Grundlagen"
+    },
+    {
+      "id": 149,
+      "course_id": 32,
+      "name": "Budgetierung"
+    },
+    {
+      "id": 150,
+      "course_id": 32,
+      "name": "Kennzahlen"
+    },
+    {
+      "id": 151,
+      "course_id": 32,
+      "name": "Abweichungsanalyse"
+    },
+    {
+      "id": 152,
+      "course_id": 32,
+      "name": "Entscheidungsrechnung"
+    },
+    {
+      "id": 153,
+      "course_id": 33,
+      "name": "Fallanalyse"
+    },
+    {
+      "id": 154,
+      "course_id": 33,
+      "name": "Lösungskonzept"
+    },
+    {
+      "id": 155,
+      "course_id": 33,
+      "name": "Angebotserstellung"
+    },
+    {
+      "id": 156,
+      "course_id": 33,
+      "name": "Präsentation"
+    },
+    {
+      "id": 157,
+      "course_id": 34,
+      "name": "Fallstudien"
+    },
+    {
+      "id": 158,
+      "course_id": 34,
+      "name": "IT-Strategie"
+    },
+    {
+      "id": 159,
+      "course_id": 34,
+      "name": "Wissenschaftliche Methodik"
+    },
+    {
+      "id": 160,
+      "course_id": 34,
+      "name": "Präsentation und Diskussion"
+    },
+    {
+      "id": 161,
+      "course_id": 35,
+      "name": "Künstliche Intelligenz"
+    },
+    {
+      "id": 162,
+      "course_id": 35,
+      "name": "Cloud Computing"
+    },
+    {
+      "id": 163,
+      "course_id": 35,
+      "name": "Blockchain"
+    },
+    {
+      "id": 164,
+      "course_id": 35,
+      "name": "Internet der Dinge"
+    },
+    {
+      "id": 165,
+      "course_id": 35,
+      "name": "Low-Code"
+    },
+    {
+      "id": 166,
+      "course_id": 36,
+      "name": "Angebot, Nachfrage und Preisbildung"
+    },
+    {
+      "id": 167,
+      "course_id": 36,
+      "name": "Marktformen"
+    },
+    {
+      "id": 168,
+      "course_id": 36,
+      "name": "Volkswirtschaftliche Gesamtrechnung"
+    },
+    {
+      "id": 169,
+      "course_id": 36,
+      "name": "Geld und Inflation"
+    },
+    {
+      "id": 170,
+      "course_id": 36,
+      "name": "Konjunktur und Wirtschaftspolitik"
+    },
+    {
+      "id": 171,
+      "course_id": 37,
+      "name": "Ethische Grundbegriffe"
+    },
+    {
+      "id": 172,
+      "course_id": 37,
+      "name": "Datenschutz (DSGVO)"
+    },
+    {
+      "id": 173,
+      "course_id": 37,
+      "name": "KI und Verantwortung"
+    },
+    {
+      "id": 174,
+      "course_id": 37,
+      "name": "Urheberrecht und Lizenzen"
+    },
+    {
+      "id": 175,
+      "course_id": 38,
+      "name": "Digitale Geschäftsmodelle"
+    },
+    {
+      "id": 176,
+      "course_id": 38,
+      "name": "Plattformökonomie"
+    },
+    {
+      "id": 177,
+      "course_id": 38,
+      "name": "Industrie 4.0"
+    },
+    {
+      "id": 178,
+      "course_id": 38,
+      "name": "Digitale Strategie"
+    },
+    {
+      "id": 179,
+      "course_id": 39,
+      "name": "DevOps"
+    },
+    {
+      "id": 180,
+      "course_id": 39,
+      "name": "Cloud-native Entwicklung"
+    },
+    {
+      "id": 181,
+      "course_id": 39,
+      "name": "KI-gestützte Entwicklung"
+    },
+    {
+      "id": 182,
+      "course_id": 39,
+      "name": "Sicherheit in der Entwicklung"
+    },
+    {
+      "id": 183,
+      "course_id": 40,
+      "name": "Vertriebsstrategie"
+    },
+    {
+      "id": 184,
+      "course_id": 40,
+      "name": "Vertriebssteuerung und KPIs"
+    },
+    {
+      "id": 185,
+      "course_id": 40,
+      "name": "Key Account Management"
+    },
+    {
+      "id": 186,
+      "course_id": 40,
+      "name": "Vertriebskanäle"
+    },
+    {
+      "id": 187,
+      "course_id": 40,
+      "name": "Pricing"
+    },
+    {
+      "id": 188,
+      "course_id": 41,
+      "name": "Veränderungsmodelle (Lewin, Kotter)"
+    },
+    {
+      "id": 189,
+      "course_id": 41,
+      "name": "Widerstände"
+    },
+    {
+      "id": 190,
+      "course_id": 41,
+      "name": "Kommunikation im Wandel"
+    },
+    {
+      "id": 191,
+      "course_id": 41,
+      "name": "Stakeholder-Management"
+    },
+    {
+      "id": 192,
+      "course_id": 42,
+      "name": "Projektplanung"
+    },
+    {
+      "id": 193,
+      "course_id": 42,
+      "name": "Umsetzung im Team"
+    },
+    {
+      "id": 194,
+      "course_id": 42,
+      "name": "Dokumentation"
+    },
+    {
+      "id": 195,
+      "course_id": 42,
+      "name": "Präsentation und Reflexion"
+    },
+    {
+      "id": 196,
+      "course_id": 43,
+      "name": "Aufbau und Module"
+    },
+    {
+      "id": 197,
+      "course_id": 43,
+      "name": "Einführung und Customizing"
+    },
+    {
+      "id": 198,
+      "course_id": 43,
+      "name": "Geschäftsprozesse im ERP"
+    },
+    {
+      "id": 199,
+      "course_id": 43,
+      "name": "SAP-Grundlagen"
+    },
+    {
+      "id": 200,
+      "course_id": 44,
+      "name": "Strategisches Management"
+    },
+    {
+      "id": 201,
+      "course_id": 44,
+      "name": "Führung"
+    },
+    {
+      "id": 202,
+      "course_id": 44,
+      "name": "Organisation"
+    },
+    {
+      "id": 203,
+      "course_id": 44,
+      "name": "Unternehmensplanung"
+    },
+    {
+      "id": 204,
+      "course_id": 44,
+      "name": "Entscheidungsmodelle"
+    },
+    {
+      "id": 205,
+      "course_id": 45,
+      "name": "Wahrnehmung und Motivation"
+    },
+    {
+      "id": 206,
+      "course_id": 45,
+      "name": "Gruppenverhalten"
+    },
+    {
+      "id": 207,
+      "course_id": 45,
+      "name": "Konsumentenverhalten"
+    },
+    {
+      "id": 208,
+      "course_id": 45,
+      "name": "Führung und Kommunikation"
+    },
+    {
+      "id": 209,
+      "course_id": 45,
+      "name": "Personalpsychologie"
+    },
+    {
+      "id": 210,
+      "course_id": 46,
+      "name": "Forschungsfrage"
+    },
+    {
+      "id": 211,
+      "course_id": 46,
+      "name": "Literaturrecherche"
+    },
+    {
+      "id": 212,
+      "course_id": 46,
+      "name": "Forschungsmethoden"
+    },
+    {
+      "id": 213,
+      "course_id": 46,
+      "name": "Auswertung"
+    },
+    {
+      "id": 214,
+      "course_id": 46,
+      "name": "Schreiben und Präsentieren"
+    }
+  ],
+  "contents": [],
+  "content_topics": [],
+  "ratings": [],
+  "upvotes": []
+}
