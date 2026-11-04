@@ -6,14 +6,14 @@ Diese Datei ist die verbindliche Vorgabe für alle, die mit Claude Code an diese
 
 Vier Personen bauen die App gemeinsam. Jede Person hat eine eigene Aufgaben-Datei:
 
-| Rolle | Aufgaben-Datei |
-| --- | --- |
-| Person 1: Design-System, Landing Page, Routing, Build | `docs/aufgaben/person-1.md` |
-| Person 2: Datenbank, Datei-Handling, Startdaten | `docs/aufgaben/person-2.md` |
-| Person 3: REST-API, Gemini, Kursübersicht mit Filtern | `docs/aufgaben/person-3.md` |
-| Person 4: Kursseite, Inhaltsseite, Formulare, Validierung | `docs/aufgaben/person-4.md` |
+| Rolle | Branch | Aufgaben-Datei |
+| --- | --- | --- |
+| Person 1: Design-System, Landing Page, Routing, Build | `debi` | `docs/aufgaben/person-1.md` |
+| Person 2: Datenbank, Datei-Handling, Startdaten | `julian` | `docs/aufgaben/person-2.md` |
+| Person 3: REST-API, Gemini, Kursübersicht mit Filtern | `joshi` | `docs/aufgaben/person-3.md` |
+| Person 4: Kursseite, Inhaltsseite, Formulare, Validierung | `alea` | `docs/aufgaben/person-4.md` |
 
-Zu Beginn jeder Sitzung nennt dir die Person ihre Rolle. Lies dann diese Datei und die passende Aufgaben-Datei. Arbeite nur an den Dateien dieser Rolle. Brauchst du eine Änderung in einer Datei einer anderen Rolle, schlag sie vor und ändere sie nur nach Rückfrage.
+Zu Beginn jeder Sitzung nennt dir die Person ihre Rolle. Lies dann diese Datei und die passende Aufgaben-Datei. Prüfe mit `git branch --show-current`, ob der Branch dieser Person ausgecheckt ist. Wenn nicht, sag es, bevor du etwas änderst. Arbeite nur an den Dateien dieser Rolle. Brauchst du eine Änderung in einer Datei einer anderen Rolle, schlag sie vor und ändere sie nur nach Rückfrage.
 
 ## Projekt
 
@@ -548,8 +548,15 @@ Ein Leaderboard von Personen wird nicht gebaut. Erst die nächste Stufe beginnen
 
 ## Git
 
-- Für jeden Arbeitsschritt ein Branch: `p<Nummer>/<kurzname>`, z. B. `p2/schema`.
-- Pull Request auf `main`, Review durch eine andere Person, erst dann mergen. Wer reviewt, muss den Code danach erklären können.
-- Mindestens alle zwei bis drei Tage mergen.
+- Jede Person arbeitet nur auf ihrem eigenen Branch (`debi`, `julian`, `joshi`, `alea`). Niemand pusht direkt auf `main`.
+- Vor jedem neuen Arbeitsschritt den aktuellen Stand von `main` in den eigenen Branch holen:
+  ```
+  git checkout <eigener-branch>     # z. B. git checkout julian
+  git pull origin main
+  ```
+  So hat jede Person die Arbeit der anderen, und Konflikte bleiben klein.
+- Nach jedem Arbeitsschritt: committen, pushen, Pull Request vom eigenen Branch nach `main`. Review durch eine andere Person, erst dann mergen. Wer reviewt, muss den Code danach erklären können.
+- Konflikte löst die Person, die den Pull Request stellt, auf ihrem eigenen Branch.
+- Mindestens alle zwei bis drei Tage nach `main` mergen, nicht erst am Ende. Ein persönlicher Branch, der wochenlang nicht gemergt wird, führt kurz vor der Abgabe zu großen Konflikten.
 - Die GitHub Action führt bei jedem Push `npm ci` und `npm run build` aus. Ein roter Build wird zuerst behoben.
 - Vor der Abgabe den kompletten Ablauf `git clone`, `npm install`, `npm run dev` auf einem Rechner testen, auf dem noch nicht entwickelt wurde.
