@@ -1,0 +1,85 @@
+@import "tailwindcss";
+
+/* Dark Mode über die Klasse "dark" auf <html> statt über die Systemeinstellung.
+   So kann der Nutzer selbst umschalten. */
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* Eigene Farben und Schriften. Tailwind erzeugt daraus Klassen wie
+   bg-surface, text-muted, border-line, bg-ink, font-display usw. */
+@theme {
+  --font-display: "Familjen Grotesk", "Helvetica Neue", Arial, sans-serif;
+  --font-body: "Atkinson Hyperlegible", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, Menlo, Consolas, monospace;
+
+  --color-page: #ffffff;          /* Seitenhintergrund */
+  --color-surface: #ffffff;       /* Karten, Navbar, Eingabefelder */
+  --color-fg: #151a2b;            /* normaler Text */
+  --color-muted: #586078;         /* gedämpfter Text */
+  --color-line: #dde2ec;          /* feine Ränder */
+  --color-line-strong: #b6bfd2;   /* deutlichere Ränder */
+  --color-grid: #e7ebf4;          /* Karomuster */
+  --color-ink: #2346c8;           /* Hauptfarbe: Buttons, Links, aktive Elemente */
+  --color-ink-strong: #1b38a6;    /* Hauptfarbe beim Darüberfahren */
+  --color-ink-soft: #e5eafb;      /* helle Fläche in der Hauptfarbe */
+  --color-on-ink: #ffffff;        /* Text auf der Hauptfarbe */
+  --color-danger: #c4372f;
+  --color-danger-soft: #fbe8e6;
+  --color-success: #1f7a4a;
+  --color-success-soft: #e3f3ea;
+  --color-amber: #b5770f;
+}
+
+@layer base {
+  html {
+    color-scheme: light;
+  }
+
+  /* Im Dark Mode bekommen dieselben Farbnamen andere Werte.
+     Jede Komponente schreibt z. B. nur bg-surface und ist damit automatisch hell oder dunkel. */
+  .dark {
+    color-scheme: dark;
+    --color-page: #0f1322;
+    --color-surface: #171c2e;
+    --color-fg: #e8ebf4;
+    --color-muted: #9ba4bc;
+    --color-line: #2a3148;
+    --color-line-strong: #47506e;
+    --color-grid: #1d2338;
+    --color-ink: #93a8ff;
+    --color-ink-strong: #b3c2ff;
+    --color-ink-soft: #222b4d;
+    --color-on-ink: #0f1322;
+    --color-danger: #ff8b80;
+    --color-danger-soft: #3a2125;
+    --color-success: #72d6a3;
+    --color-success-soft: #1b3328;
+    --color-amber: #f2b75c;
+  }
+
+  body {
+    @apply bg-page font-body text-fg antialiased;
+    line-height: 1.55;
+  }
+
+  h1,
+  h2,
+  h3 {
+    font-family: var(--font-display);
+    line-height: 1.15;
+    text-wrap: balance;
+  }
+
+  /* Sichtbarer Rahmen, wenn man mit der Tastatur navigiert */
+  :focus-visible {
+    outline: 2px solid var(--color-ink);
+    outline-offset: 2px;
+  }
+}
+
+/* Karomuster für den Kopfbereich der Startseite */
+@utility bg-grid {
+  background-image:
+    linear-gradient(var(--color-grid) 1px, transparent 1px),
+    linear-gradient(90deg, var(--color-grid) 1px, transparent 1px);
+  background-size: 22px 22px;
+}
