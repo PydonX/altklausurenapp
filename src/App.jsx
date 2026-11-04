@@ -1,4 +1,6 @@
 import { Routes, Route } from 'react-router-dom';
+import Layout from './components/Layout.jsx';
+import ProtectedRoute from './components/ProtectedRoute.jsx';
 import LandingPage from './pages/LandingPage.jsx';
 import RulesPage from './pages/RulesPage.jsx';
 import DashboardPage from './pages/DashboardPage.jsx';
@@ -13,22 +15,29 @@ import AdminPage from './pages/AdminPage.jsx';
 import NotFoundPage from './pages/NotFoundPage.jsx';
 
 // Alle Frontend-Routen aus CLAUDE.md.
-// Layout und ProtectedRoute kommen in Schritt 1 dazu.
+// Die äußere Route rendert das Layout, die inneren Seiten erscheinen in dessen <Outlet />.
 export default function App() {
   return (
     <Routes>
-      <Route path="/" element={<LandingPage />} />
-      <Route path="/regeln" element={<RulesPage />} />
-      <Route path="/dashboard" element={<DashboardPage />} />
-      <Route path="/kurse" element={<CoursesPage />} />
-      <Route path="/kurse/:id" element={<CoursePage />} />
-      <Route path="/rangliste" element={<RankingPage />} />
-      <Route path="/inhalte/:id" element={<ContentPage />} />
-      <Route path="/hochladen" element={<UploadPage />} />
-      <Route path="/login" element={<LoginPage />} />
-      <Route path="/registrieren" element={<RegisterPage />} />
-      <Route path="/admin" element={<AdminPage />} />
-      <Route path="*" element={<NotFoundPage />} />
+      <Route element={<Layout />}>
+        <Route path="/" element={<LandingPage />} />
+        <Route path="/regeln" element={<RulesPage />} />
+        <Route path="/kurse" element={<CoursesPage />} />
+        <Route path="/kurse/:id" element={<CoursePage />} />
+        <Route path="/rangliste" element={<RankingPage />} />
+        <Route path="/inhalte/:id" element={<ContentPage />} />
+        <Route path="/login" element={<LoginPage />} />
+        <Route path="/registrieren" element={<RegisterPage />} />
+
+        {/* Nur für angemeldete Nutzer */}
+        <Route path="/dashboard" element={<ProtectedRoute><DashboardPage /></ProtectedRoute>} />
+        <Route path="/hochladen" element={<ProtectedRoute><UploadPage /></ProtectedRoute>} />
+
+        {/* Nur für Admins */}
+        <Route path="/admin" element={<ProtectedRoute adminOnly><AdminPage /></ProtectedRoute>} />
+
+        <Route path="*" element={<NotFoundPage />} />
+      </Route>
     </Routes>
   );
 }
