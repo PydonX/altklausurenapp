@@ -9,6 +9,7 @@ import statsRouter from './routes/stats.js';
 import coursesRouter from './routes/courses.js';
 import ratingsRouter from './routes/ratings.js';
 import contentsRouter from './routes/contents.js';
+import meRouter from './routes/me.js';
 
 // .env darf fehlen: Die App muss auch ohne sie starten.
 try {
@@ -43,6 +44,7 @@ app.use('/api', statsRouter);
 app.use('/api', coursesRouter);
 app.use('/api', ratingsRouter);
 app.use('/api', contentsRouter);
+app.use('/api', meRouter);
 
 // Unbekannte /api-Adressen: JSON statt HTML
 app.use('/api', (req, res) => {
