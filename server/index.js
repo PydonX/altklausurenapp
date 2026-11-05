@@ -7,6 +7,7 @@ import session from 'express-session';
 import authRouter from './routes/auth.js';
 import statsRouter from './routes/stats.js';
 import coursesRouter from './routes/courses.js';
+import ratingsRouter from './routes/ratings.js';
 
 // .env darf fehlen: Die App muss auch ohne sie starten.
 try {
@@ -39,6 +40,7 @@ app.use('/api/auth', authRouter);
 // Diese Router enthalten ihre vollen Pfade (z. B. /courses/:id), deshalb alle unter /api
 app.use('/api', statsRouter);
 app.use('/api', coursesRouter);
+app.use('/api', ratingsRouter);
 
 // Unbekannte /api-Adressen: JSON statt HTML
 app.use('/api', (req, res) => {
