@@ -1,7 +1,9 @@
 import ReactMarkdown from 'react-markdown';
+import remarkGfm from 'remark-gfm';
 
 // Gestaltung der Markdown-Elemente mit Tailwind. Alle Farben haben Dark-Mode-Werte über die Tokens.
 // Es gibt bewusst kein rehype-raw: HTML im Text wird als Text angezeigt, nie ausgeführt.
+// remark-gfm ergänzt Tabellen, durchgestrichenen Text und Aufgabenlisten (GitHub-Markdown).
 const components = {
   h1: ({ children }) => <h1 className="mb-3 mt-6 text-2xl font-bold first:mt-0">{children}</h1>,
   h2: ({ children }) => <h2 className="mb-2 mt-5 text-xl font-bold first:mt-0">{children}</h2>,
@@ -43,7 +45,7 @@ const components = {
 export default function MarkdownView({ text }) {
   return (
     <div className="min-w-0 break-words">
-      <ReactMarkdown components={components}>{text || ''}</ReactMarkdown>
+      <ReactMarkdown remarkPlugins={[remarkGfm]} components={components}>{text || ''}</ReactMarkdown>
     </div>
   );
 }
