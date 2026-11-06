@@ -5,6 +5,12 @@ import { fileURLToPath } from 'node:url';
 import express from 'express';
 import session from 'express-session';
 import authRouter from './routes/auth.js';
+import statsRouter from './routes/stats.js';
+import coursesRouter from './routes/courses.js';
+import ratingsRouter from './routes/ratings.js';
+import contentsRouter from './routes/contents.js';
+import meRouter from './routes/me.js';
+import reportsRouter from './routes/reports.js';
 
 // .env darf fehlen: Die App muss auch ohne sie starten.
 try {
@@ -34,6 +40,13 @@ app.get('/api/health', (req, res) => {
   res.json({ ok: true });
 });
 app.use('/api/auth', authRouter);
+// Diese Router enthalten ihre vollen Pfade (z. B. /courses/:id), deshalb alle unter /api
+app.use('/api', statsRouter);
+app.use('/api', coursesRouter);
+app.use('/api', ratingsRouter);
+app.use('/api', contentsRouter);
+app.use('/api', meRouter);
+app.use('/api', reportsRouter);
 
 // Unbekannte /api-Adressen: JSON statt HTML
 app.use('/api', (req, res) => {
